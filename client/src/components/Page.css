@@ -1,0 +1,78 @@
+.full_page{
+    height:100vh;
+    width:100%;
+    background-color: rgb(255, 237, 213);
+}
+nav{
+    padding: 10px;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.middle_box{
+    border:2px solid black;
+    padding:18px;
+    margin-top: 2vh!important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 7px 7px black;
+    margin-top: 40px;
+    width: 60vh;
+}
+marquee{
+    background-color: black;
+    color: white;
+}
+.middle_box input,select{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 2px 3px black; */
+    font-size: 15px;
+    width: 160px;
+
+}
+.middle_box label{
+    font-weight: bold;
+}
+#submit_btn{
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.row_box{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+}
+.input_field{
+    display: flex;
+    flex-direction: column;
+}
+.pred{
+    display: flex;
+    align-items: center;
+}
+
+.predval{
+    color: red;
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.approved {
+    color: rgb(27, 133, 27);
+    font-size: 3vh;
+    font-weight: 500;
+}
